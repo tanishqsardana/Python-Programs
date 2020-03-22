@@ -1,0 +1,6 @@
+#To print factorials of a number
+num = (int)(input("Enter a number: "))
+for x in range(1,num):
+	if(num%x ==0):
+	 print("Factorial of", num ,"is:", x)
+

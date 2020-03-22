@@ -1,0 +1,16 @@
+#Fibonacci Numbers series
+first = 1
+second = 1
+third = 0 
+limit = (int)(input("Till what number:"))
+print("Fibonacci Series:")
+print(first)
+print(second)
+while(third<limit):
+	third = second+first
+	first = second
+	second = third
+	if(third<limit):
+		print(third)
+print()
+print("End of Series")

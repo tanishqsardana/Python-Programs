@@ -1,0 +1,10 @@
+#To print prime numbers in a range
+start = (int)(input("Starting number:"))
+end = (int)(input("Ending number:"))
+for x in range(start,end):
+	prime = 'true'
+	for a in range(2,int((x/2))):
+			if(x%a==0):
+				prime = 'false'
+	if(prime== 'true'):
+		print("Prime Number:",x)

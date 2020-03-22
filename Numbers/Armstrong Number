@@ -1,0 +1,14 @@
+num = (int)(input("Enter a number:"))
+x = len(str(num))
+
+n = num
+sum = 0
+while n>0:
+	digit = int(n%10)
+	sum = sum + (int)(pow(digit,x))
+	n = n/10
+if(sum==num):
+	print("Armstrong Number")
+else:
+	print("Not Armstrong Number")
+

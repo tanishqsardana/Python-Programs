@@ -1,0 +1,15 @@
+#Simple Interest or Compound Interest
+choice = input("Simple or Compound:")
+amount = (int)(input("Principal Amount:"))
+rate = (int)(input("Rate:"))
+time = (int)(input("Time:"))
+interest = 0
+if(choice == "Simple"):
+	interest = (amount*time*rate)/100
+elif(choice	== "Compound"):
+	interest = pow(((1+rate)/100)	, time)
+else: 
+	print("Wtf")
+print("Interest is:", interest)
+
+

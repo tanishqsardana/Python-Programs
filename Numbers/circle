@@ -1,0 +1,4 @@
+#area of a circle 
+side = (int)(input("Enter side:"))
+area = 3.14*pow(side,2)
+print("Area of circle is:", area)
